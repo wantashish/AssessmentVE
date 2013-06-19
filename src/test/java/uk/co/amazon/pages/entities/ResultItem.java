@@ -3,13 +3,6 @@ package uk.co.amazon.pages.entities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-/**
- * Created with IntelliJ IDEA.
- * User: ashishsri
- * Date: 19/06/2013
- * Time: 01:09
- * To change this template use File | Settings | File Templates.
- */
 public class ResultItem {
     private WebElement baseElement=null;
 

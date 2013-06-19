@@ -5,13 +5,6 @@ import org.openqa.selenium.WebElement;
 import uk.co.amazon.framework.BrowserWindow;
 import uk.co.amazon.pages.entities.AmazonSearchResultsList;
 
-/**
- * Created with IntelliJ IDEA.
- * User: ashishsri
- * Date: 18/06/2013
- * Time: 22:13
- * To change this template use File | Settings | File Templates.
- */
 public class AmazonHomePage {
 
 

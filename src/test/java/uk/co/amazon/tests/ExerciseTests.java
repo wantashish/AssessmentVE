@@ -10,15 +10,6 @@ import uk.co.amazon.pages.entities.ResultItem;
 import java.util.List;
 
 import static org.testng.Assert.assertTrue;
-
-
-/**
- * Created with IntelliJ IDEA.
- * User: ashishsri
- * Date: 18/06/2013
- * Time: 21:28
- * To change this template use File | Settings | File Templates.
- */
 public class ExerciseTests {
 
 
