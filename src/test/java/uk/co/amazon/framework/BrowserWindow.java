@@ -27,6 +27,7 @@ public class BrowserWindow {
 
     public static void navigateTo(String url) {
         driver.get(url);
+//        543864iuy34h3
     }
 
     public static WebElement findElement(By by) {
