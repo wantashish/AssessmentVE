@@ -1,9 +1,8 @@
-package uk.co.amazon.pages;
+package uk.co.amazon.test.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import uk.co.amazon.framework.BrowserWindow;
-import uk.co.amazon.pages.entities.AmazonSearchResultsList;
+import uk.co.amazon.test.framework.BrowserWindow;
 
 public class AmazonHomePage {
 
@@ -20,8 +19,8 @@ public class AmazonHomePage {
         elm.sendKeys(searchString);
     }
 
-    public AmazonSearchResultsList clickGo(){
+    public AmazonSearchResultPage clickGo(){
         BrowserWindow.findElement(By.xpath("//input[@value='Go']")).click();
-        return new AmazonSearchResultsList();
+        return new AmazonSearchResultPage();
     }
 }

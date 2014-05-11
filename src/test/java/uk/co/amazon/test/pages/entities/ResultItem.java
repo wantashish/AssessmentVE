@@ -1,4 +1,4 @@
-package uk.co.amazon.pages.entities;
+package uk.co.amazon.test.pages.entities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
